@@ -14,6 +14,12 @@ spring:
     url: jdbc:sqlserver://192.168.1.252:1433;databaseName=PRODUCTION;encrypt=false;trustServerCertificate=true;
     username: sa
     password: dev*2304
+  redis:
+    time-to-live: 60000
+    host: localhost
+    port: 6379
+  cache:
+    type: redis
 
 server:
   port: 8771
