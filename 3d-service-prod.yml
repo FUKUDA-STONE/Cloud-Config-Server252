@@ -41,6 +41,7 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
 
+
   redis:
     time-to-live: 60000
     host: localhost
