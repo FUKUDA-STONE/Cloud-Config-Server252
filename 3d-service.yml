@@ -24,11 +24,6 @@ spring:
       max-request-size: 10MB
       # Giới hạn tổng số lượng file tải lên
       file-size-threshold: 2MB
-  aop:
-    auto: true
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
 
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
