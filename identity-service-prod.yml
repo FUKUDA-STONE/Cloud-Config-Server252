@@ -1,4 +1,4 @@
-coreservice: http://localhost:8762
+core-service: http://localhost:8762
 
 eureka:
   client:
@@ -28,7 +28,7 @@ swagger:
 
 logging:
   level:
-    org.springframework: Hello
+    org.springframework: ERROR
 token:
   time:
     refresh: 84000000
