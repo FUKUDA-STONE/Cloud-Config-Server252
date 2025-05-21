@@ -1,5 +1,4 @@
-core-service:
-  url: http://core-service:8762
+core-service: http://core-service:8762
 
 eureka:
   client:
