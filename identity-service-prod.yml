@@ -1,4 +1,4 @@
-core-service: http://localhost:8762
+coreservice: http://localhost:8762
 
 eureka:
   client:
