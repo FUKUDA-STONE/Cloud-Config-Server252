@@ -28,7 +28,7 @@ swagger:
 
 logging:
   level:
-    org.springframework: ERROR
+    org.springframework: Hello
 token:
   time:
     refresh: 84000000
