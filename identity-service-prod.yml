@@ -22,7 +22,13 @@ spring:
     url: jdbc:sqlserver://192.168.1.252:1433;databaseName=PRODUCTION;encrypt=false;trustServerCertificate=true;
     username: sa
     password: dev*2304
-
+  servlet:
+    # Giới hạn kích thước file tải lên
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+      # Giới hạn tổng số lượng file tải lên
+      file-size-threshold: 2MB
 
 swagger:
   enabled: true
