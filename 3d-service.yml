@@ -1,7 +1,7 @@
 api-service:
-  url: http://api-service:8771
+  url: http://api-service
 core-service:
-  url: http://core-service:8762
+  url: http://core-service
 mp-import-service:
   url: http://localhost:12120/MPImport
 
