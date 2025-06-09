@@ -24,6 +24,15 @@ spring:
     username: sa
     password: dev*2304
 
+  zipkin:
+    base-url: http://zipkin-server:9411
+    enabled: true
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1.0  # Thu thập 100% trace (có thể giảm xuống 0.1 nếu quá tải)
+
 
 swagger:
   enabled: true
