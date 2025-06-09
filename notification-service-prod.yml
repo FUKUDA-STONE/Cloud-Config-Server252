@@ -30,7 +30,7 @@ spring:
           starttls:
             enable: true
   kafka:
-    bootstrap-servers: kafka-broker-1:9092
+    bootstrap-servers: fukuda_stone_alva_api_v1-kafka-broker-1-1:9092
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
