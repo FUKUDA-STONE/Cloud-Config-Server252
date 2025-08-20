@@ -1,22 +1,22 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://192.168.1.252:8761/eureka
   instance:
     prefer-ip-address: true
 
 spring:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://localhost:1433;databaseName=PRODUCTION;encrypt=false;trustServerCertificate=true;
+    url: jdbc:sqlserver://192.168.1.252:1433;databaseName=PRODUCTION;encrypt=false;trustServerCertificate=true;
     username: sa
     password: dev*2304
   data:
     mongodb:
-      uri: mongodb://localhost:27017/AlvaDB
+      uri: mongodb://192.168.1.252:27017/AlvaDB
   redis:
     time-to-live: 60000
-    host: localhost
+    host: 192.168.1.252
     port: 6379
   cache:
     type: redis
